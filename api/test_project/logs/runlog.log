@@ -1,0 +1,150 @@
+2019-12-07 17:30:32,034 mysql_action.py[line:10] INFO ===================== init data =====================
+2019-12-07 17:30:32,035 mysql_action.py[line:11] INFO connect db
+2019-12-07 17:30:32,185 mysql_action.py[line:51] INFO init ab...
+2019-12-07 17:30:32,185 mysql_action.py[line:16] INFO clear db...
+2019-12-07 17:30:32,283 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:30:32,287 mysql_action.py[line:37] INFO insert into api_group(name,id)values('Developer','1')
+2019-12-07 17:30:32,344 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:30:32,347 mysql_action.py[line:37] INFO insert into api_group(name,id)values('Tester','2')
+2019-12-07 17:30:32,404 mysql_action.py[line:16] INFO clear db...
+2019-12-07 17:30:32,502 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:30:32,504 mysql_action.py[line:37] INFO insert into api_user(username,groups,id,email)values('sutune','http://127.0.0.1:8000/groups/1/','1','sutune@163.com')
+2019-12-07 17:30:32,561 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:30:32,563 mysql_action.py[line:37] INFO insert into api_user(username,groups,id,email)values('51zxw','htpp://127.0.0.1:8000/groups/2/','2','51zxw@163.com')
+2019-12-07 17:30:32,620 mysql_action.py[line:45] INFO close db
+2019-12-07 17:30:32,621 mysql_action.py[line:47] INFO ===========init finisher!===========
+2019-12-07 17:30:32,702 run.py[line:44] INFO =============== Start API Test ===============
+2019-12-07 17:30:32,702 test_django_restful.py[line:57] INFO test_001_group_developer
+2019-12-07 17:30:33,716 test_django_restful.py[line:63] INFO test_002_add_group
+2019-12-07 17:30:34,721 test_django_restful.py[line:70] INFO test_003_update_group
+2019-12-07 17:30:35,728 test_django_restful.py[line:77] INFO test_004_delete_group
+2019-12-07 17:30:36,736 test_django_restful.py[line:15] INFO test_001_get_user
+2019-12-07 17:30:37,743 test_django_restful.py[line:24] INFO test_002_add_user
+2019-12-07 17:30:38,748 test_django_restful.py[line:40] INFO test_003_delete_user
+2019-12-07 17:30:39,752 test_django_restful.py[line:32] INFO test_004_update_user
+2019-12-07 17:30:40,758 test_django_restful.py[line:45] INFO test_005_no_auth
+2019-12-07 17:39:32,014 mysql_action.py[line:10] INFO ===================== init data =====================
+2019-12-07 17:39:32,014 mysql_action.py[line:11] INFO connect db
+2019-12-07 17:39:32,171 mysql_action.py[line:51] INFO init ab...
+2019-12-07 17:39:32,171 mysql_action.py[line:16] INFO clear db...
+2019-12-07 17:39:32,274 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:39:32,277 mysql_action.py[line:37] INFO insert into api_user(username,id,groups,email)values('sutune','1','http://127.0.0.1:8000/groups/1/','sutune@163.com')
+2019-12-07 17:39:32,337 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:39:32,340 mysql_action.py[line:37] INFO insert into api_user(username,id,groups,email)values('51zxw','2','htpp://127.0.0.1:8000/groups/2/','51zxw@163.com')
+2019-12-07 17:39:32,399 mysql_action.py[line:16] INFO clear db...
+2019-12-07 17:39:32,499 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:39:32,500 mysql_action.py[line:37] INFO insert into api_group(id,name)values('1','Developer')
+2019-12-07 17:39:32,595 mysql_action.py[line:26] INFO insert data...
+2019-12-07 17:39:32,596 mysql_action.py[line:37] INFO insert into api_group(id,name)values('2','Tester')
+2019-12-07 17:39:32,655 mysql_action.py[line:45] INFO close db
+2019-12-07 17:39:32,656 mysql_action.py[line:47] INFO ===========init finisher!===========
+2019-12-07 17:39:32,726 run.py[line:45] INFO =============== Start API Test ===============
+2019-12-07 17:39:32,726 test_django_restful.py[line:57] INFO test_001_group_developer
+2019-12-07 17:39:33,180 test_django_restful.py[line:63] INFO test_002_add_group
+2019-12-07 17:39:33,664 test_django_restful.py[line:70] INFO test_003_update_group
+2019-12-07 17:39:34,265 test_django_restful.py[line:77] INFO test_004_delete_group
+2019-12-07 17:39:34,799 test_django_restful.py[line:15] INFO test_001_get_user
+2019-12-07 17:39:35,183 test_django_restful.py[line:24] INFO test_002_add_user
+2019-12-07 17:39:35,683 test_django_restful.py[line:40] INFO test_003_delete_user
+2019-12-07 17:39:36,256 test_django_restful.py[line:32] INFO test_004_update_user
+2019-12-07 17:39:36,793 test_django_restful.py[line:45] INFO test_005_no_auth
+2019-12-07 18:12:27,321 mysql_action.py[line:10] INFO ===================== init data =====================
+2019-12-07 18:12:27,321 mysql_action.py[line:11] INFO connect db
+2019-12-07 18:12:27,480 mysql_action.py[line:51] INFO init ab...
+2019-12-07 18:12:27,481 mysql_action.py[line:16] INFO clear db...
+2019-12-07 18:12:27,612 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:12:27,617 mysql_action.py[line:37] INFO insert into api_group(id,name)values('1','Developer')
+2019-12-07 18:12:27,677 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:12:27,680 mysql_action.py[line:37] INFO insert into api_group(id,name)values('2','Tester')
+2019-12-07 18:12:27,741 mysql_action.py[line:16] INFO clear db...
+2019-12-07 18:12:27,878 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:12:27,879 mysql_action.py[line:37] INFO insert into api_user(email,id,username,groups)values('sutune@163.com','1','sutune','http://127.0.0.1:8000/groups/1/')
+2019-12-07 18:12:27,940 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:12:27,941 mysql_action.py[line:37] INFO insert into api_user(email,id,username,groups)values('51zxw@163.com','2','51zxw','htpp://127.0.0.1:8000/groups/2/')
+2019-12-07 18:12:28,002 mysql_action.py[line:45] INFO close db
+2019-12-07 18:12:28,002 mysql_action.py[line:47] INFO ===========init finisher!===========
+2019-12-07 18:12:28,091 run.py[line:50] INFO =============== Start API Test ===============
+2019-12-07 18:12:28,091 test_django_restful.py[line:57] INFO test_001_group_developer
+2019-12-07 18:12:28,694 test_django_restful.py[line:63] INFO test_002_add_group
+2019-12-07 18:12:29,357 test_django_restful.py[line:70] INFO test_003_update_group
+2019-12-07 18:12:30,071 test_django_restful.py[line:77] INFO test_004_delete_group
+2019-12-07 18:12:30,805 test_django_restful.py[line:15] INFO test_001_get_user
+2019-12-07 18:12:31,278 test_django_restful.py[line:24] INFO test_002_add_user
+2019-12-07 18:12:31,765 test_django_restful.py[line:40] INFO test_003_delete_user
+2019-12-07 18:12:32,260 test_django_restful.py[line:32] INFO test_004_update_user
+2019-12-07 18:12:32,827 test_django_restful.py[line:45] INFO test_005_no_auth
+2019-12-07 18:17:26,181 mysql_action.py[line:10] INFO ===================== init data =====================
+2019-12-07 18:17:26,181 mysql_action.py[line:11] INFO connect db
+2019-12-07 18:17:26,332 mysql_action.py[line:51] INFO init ab...
+2019-12-07 18:17:26,332 mysql_action.py[line:16] INFO clear db...
+2019-12-07 18:17:26,433 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:17:26,435 mysql_action.py[line:37] INFO insert into api_user(id,email,username,groups)values('1','sutune@163.com','sutune','http://127.0.0.1:8000/groups/1/')
+2019-12-07 18:17:26,494 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:17:26,495 mysql_action.py[line:37] INFO insert into api_user(id,email,username,groups)values('2','51zxw@163.com','51zxw','htpp://127.0.0.1:8000/groups/2/')
+2019-12-07 18:17:26,555 mysql_action.py[line:16] INFO clear db...
+2019-12-07 18:17:26,654 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:17:26,656 mysql_action.py[line:37] INFO insert into api_group(id,name)values('1','Developer')
+2019-12-07 18:17:26,715 mysql_action.py[line:26] INFO insert data...
+2019-12-07 18:17:26,716 mysql_action.py[line:37] INFO insert into api_group(id,name)values('2','Tester')
+2019-12-07 18:17:26,775 mysql_action.py[line:45] INFO close db
+2019-12-07 18:17:26,776 mysql_action.py[line:47] INFO ===========init finisher!===========
+2019-12-07 18:17:26,848 run.py[line:50] INFO =============== Start API Test ===============
+2019-12-07 18:17:26,848 test_django_restful.py[line:57] INFO test_001_group_developer
+2019-12-07 18:17:27,854 test_django_restful.py[line:63] INFO test_002_add_group
+2019-12-07 18:17:28,860 test_django_restful.py[line:70] INFO test_003_update_group
+2019-12-07 18:17:29,867 test_django_restful.py[line:77] INFO test_004_delete_group
+2019-12-07 18:17:30,872 test_django_restful.py[line:15] INFO test_001_get_user
+2019-12-07 18:17:31,879 test_django_restful.py[line:24] INFO test_002_add_user
+2019-12-07 18:17:32,884 test_django_restful.py[line:40] INFO test_003_delete_user
+2019-12-07 18:17:33,889 test_django_restful.py[line:32] INFO test_004_update_user
+2019-12-07 18:17:34,909 test_django_restful.py[line:45] INFO test_005_no_auth
+2019-12-09 11:10:44,852 mysql_action.py[line:10] INFO ===================== init data =====================
+2019-12-09 11:10:44,852 mysql_action.py[line:11] INFO connect db
+2019-12-09 11:10:45,013 mysql_action.py[line:51] INFO init ab...
+2019-12-09 11:10:45,013 mysql_action.py[line:16] INFO clear db...
+2019-12-09 11:10:45,123 mysql_action.py[line:26] INFO insert data...
+2019-12-09 11:10:45,136 mysql_action.py[line:37] INFO insert into api_group(id,name)values('1','Developer')
+2019-12-09 11:10:45,202 mysql_action.py[line:26] INFO insert data...
+2019-12-09 11:10:45,214 mysql_action.py[line:37] INFO insert into api_group(id,name)values('2','Tester')
+2019-12-09 11:10:45,279 mysql_action.py[line:16] INFO clear db...
+2019-12-09 11:10:45,391 mysql_action.py[line:26] INFO insert data...
+2019-12-09 11:10:45,405 mysql_action.py[line:37] INFO insert into api_user(id,username,groups,email)values('1','sutune','http://127.0.0.1:8000/groups/1/','sutune@163.com')
+2019-12-09 11:10:45,474 mysql_action.py[line:26] INFO insert data...
+2019-12-09 11:10:45,483 mysql_action.py[line:37] INFO insert into api_user(id,username,groups,email)values('2','51zxw','htpp://127.0.0.1:8000/groups/2/','51zxw@163.com')
+2019-12-09 11:10:45,543 mysql_action.py[line:45] INFO close db
+2019-12-09 11:10:45,543 mysql_action.py[line:47] INFO ===========init finisher!===========
+2019-12-09 11:10:45,615 run.py[line:45] INFO =============== Start API Test ===============
+2019-12-09 11:10:45,615 test_django_restful.py[line:57] INFO test_001_group_developer
+2019-12-09 11:10:46,053 test_django_restful.py[line:63] INFO test_002_add_group
+2019-12-09 11:10:46,530 test_django_restful.py[line:70] INFO test_003_update_group
+2019-12-09 11:10:47,060 test_django_restful.py[line:77] INFO test_004_delete_group
+2019-12-09 11:10:47,572 test_django_restful.py[line:15] INFO test_001_get_user
+2019-12-09 11:10:47,974 test_django_restful.py[line:24] INFO test_002_add_user
+2019-12-09 11:10:48,429 test_django_restful.py[line:40] INFO test_003_delete_user
+2019-12-09 11:10:48,928 test_django_restful.py[line:32] INFO test_004_update_user
+2019-12-09 11:10:49,473 test_django_restful.py[line:45] INFO test_005_no_auth
+2020-04-08 10:52:07,397 mysql_action.py[line:10] INFO ===================== init data =====================
+2020-04-08 10:52:07,397 mysql_action.py[line:11] INFO connect db
+2020-04-08 10:52:07,408 mysql_action.py[line:51] INFO init ab...
+2020-04-08 10:52:07,409 mysql_action.py[line:16] INFO clear db...
+2020-04-08 10:52:07,418 mysql_action.py[line:26] INFO insert data...
+2020-04-08 10:52:07,420 mysql_action.py[line:37] INFO insert into api_group(id,name)values('1','Developer')
+2020-04-08 10:52:07,422 mysql_action.py[line:26] INFO insert data...
+2020-04-08 10:52:07,423 mysql_action.py[line:37] INFO insert into api_group(id,name)values('2','Tester')
+2020-04-08 10:52:07,425 mysql_action.py[line:16] INFO clear db...
+2020-04-08 10:52:07,434 mysql_action.py[line:26] INFO insert data...
+2020-04-08 10:52:07,435 mysql_action.py[line:37] INFO insert into api_user(id,username,email,groups)values('1','sutune','sutune@163.com','http://127.0.0.1:8000/groups/1/')
+2020-04-08 10:52:07,436 mysql_action.py[line:26] INFO insert data...
+2020-04-08 10:52:07,437 mysql_action.py[line:37] INFO insert into api_user(id,username,email,groups)values('2','51zxw','51zxw@163.com','htpp://127.0.0.1:8000/groups/2/')
+2020-04-08 10:52:07,439 mysql_action.py[line:45] INFO close db
+2020-04-08 10:52:07,440 mysql_action.py[line:47] INFO ===========init finisher!===========
+2020-04-08 10:52:07,557 run.py[line:44] INFO =============== Start API Test ===============
+2020-04-08 10:52:07,557 test_django_restful.py[line:57] INFO test_001_group_developer
+2020-04-08 10:52:07,652 test_django_restful.py[line:63] INFO test_002_add_group
+2020-04-08 10:52:07,731 test_django_restful.py[line:70] INFO test_003_update_group
+2020-04-08 10:52:07,812 test_django_restful.py[line:77] INFO test_004_delete_group
+2020-04-08 10:52:07,890 test_django_restful.py[line:15] INFO test_001_get_user
+2020-04-08 10:52:07,969 test_django_restful.py[line:24] INFO test_002_add_user
+2020-04-08 10:52:08,052 test_django_restful.py[line:40] INFO test_003_delete_user
+2020-04-08 10:52:08,139 test_django_restful.py[line:32] INFO test_004_update_user
+2020-04-08 10:52:08,216 test_django_restful.py[line:45] INFO test_005_no_auth

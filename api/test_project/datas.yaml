@@ -1,0 +1,26 @@
+# 封装初始化数据
+# YAML 编写规范:  详细见：https://blog.csdn.net/liukuan73/article/details/78031693
+                  # 一：文档使用 Unicode 编码作为字符标准编码，例如 UTF-8
+                 # 规范二：使用“#”来表示注释内容
+                # 规范三：使用空格作为嵌套缩进工具。通常建议使用两个空格缩进，不建议使用 tab （甚至不支持）
+              # 规范四：序列表示
+             # 规范五：键值表
+            # 规范六：文本块
+          # 规范八：锚点与引用，定义数据的复用
+
+api_user:
+  - id: 1
+    username: sutune
+    email: sutune@163.com
+    groups: http://127.0.0.1:8000/groups/1/
+
+  - id: 2
+    username: 51zxw
+    email: 51zxw@163.com
+    groups: htpp://127.0.0.1:8000/groups/2/
+
+api_group:
+  - id: 1
+    name: Developer
+  - id: 2
+    name: Tester
